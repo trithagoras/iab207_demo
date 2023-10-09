@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% from 'bootstrap5/form.html' import render_form %}
+
+{% block content %}
+
+<div class="container-fluid d-flex justify-content-center ">
+  <div>
+    <div class="page-header mb-4">
+      <h4>{{ heading }}</h4>
+    </div>
+    <div class="col-md-12">
+      {{ render_form(form) }}
+    </div>
+  </div>
+  
+</div>
+
+<!-- Form rendering is simple and easy if using bootstrap -->
+
+
+{% endblock %}
