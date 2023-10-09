@@ -8,7 +8,7 @@
 import sys
 
 # add your project directory to the sys.path
-project_home = '/home/207testusername/iab207week10'
+project_home = '/home/n11670568/demo'
 if project_home not in sys.path:
     sys.path = [project_home] + sys.path
 
